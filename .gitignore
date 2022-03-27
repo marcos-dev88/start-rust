@@ -1,1 +1,3 @@
-/target
+# Ignoring targets
+/guess_word/target
+
