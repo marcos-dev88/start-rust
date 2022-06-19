@@ -2,6 +2,7 @@
 fn main(){
     constants();
     shadowing();
+    shadowing2();
 }
 
 fn constants() {
@@ -23,5 +24,19 @@ fn shadowing() {
         println!("Value of x inside of scope -> {}", x)
     }
 
-    println!("value of original x -> {}", x)
+        println!("value of original x -> {}", x)
+}
+
+fn shadowing2() {
+
+    let mut _spaces = "     "; // How it is an unused variable intentionally, then we must to use a '_'
+
+   // spaces = spaces.len(); # it was not possible because we are not able to change a variable
+   // type with mut
+   // even though we're able to do that with shaddowing:
+
+    let spaces2 = "     ";
+    let spaces2 = spaces2.len();
+
+    println!("value of spaces -> {:#?}", spaces2)
 }
