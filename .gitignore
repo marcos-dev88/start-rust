@@ -2,3 +2,8 @@
 /guess_word/target
 /variables_start/target
 /data_types/target
+/functions/target
+/control_flow/target
+
+# Ignoring tags
+tags
