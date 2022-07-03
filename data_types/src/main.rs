@@ -14,7 +14,7 @@ fn main() {
 }
 
 
-fn tuple_example_1(){ // Tuples are a kind of array, where you can put any kind of data inside that, and you can access their elements like below:
+fn tuple_example_1(){ // Tuples are a kind of array, where you can put any kind of data inside that, and you can access their elements like below: 
 
     let tup: (i32, f64, u8) = (300, 1.8, 2);
 
