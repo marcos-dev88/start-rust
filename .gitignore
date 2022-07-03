@@ -5,5 +5,5 @@
 /functions/target
 /control_flow/target
 
-# Ignoring tags
+# Ignoring nvim tags
 tags
